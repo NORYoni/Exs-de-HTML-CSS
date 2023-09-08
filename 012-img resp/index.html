@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir este site em diversos dispositivos o mude o tamanho da janela do comoutador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/fotoP.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/fotoM.png" type="image/png">
+        <img src="imagens/fotoG.png" alt="foto grande">
+    </picture>
+
+    <h2>Audíos</h2>
+    <p>vamos tocar um audio</p>
+    <audio src="midias/High Noon - TrackTribe.mp3" controls autoplay>Musiquinha</audio>
+    <!--Formatos de audio são o MP3 WAV OGG-->
+
+    <h2>Videos</h2>
+    <p>vamos colocar um video em nosso site, o video carregado a seguir esta no meu proprio servidor o que não é recomendado por que pode ficar caro</p>
+    <!--Formatos de videos usados são o MP4 e OGV-->
+    <video src="midias/video.mp4" width="560" controls></video>
+
+    <p>O recomendavel é pegar videos de locias de hospedagem de videos como o Youtube segue o exemplo </p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5yVqwq0z9vE?si=JAjzJgfecbbpUR8B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</body>
+</html>
