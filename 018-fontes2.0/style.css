@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "MORGIAH" ;
+    src: url("MORGIAH.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+
+    /*
+        Tipos de format()
+        opentype (usado para otf)
+        truetype (usado para ttf)
+        embedded-opentype (usado para apple advanced typography)
+        svg
+    
+    */
+}
+
+body{
+    font-family: "MORGIAH";
+}

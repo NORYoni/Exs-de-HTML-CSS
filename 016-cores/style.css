@@ -1,0 +1,9 @@
+.color{
+    background-color: #55678f;
+}
+.rgb{
+    background-color: rgb( 150, 40, 60);
+}
+.hsl{
+    background-color: hsl(40, 79%, 50%);
+}

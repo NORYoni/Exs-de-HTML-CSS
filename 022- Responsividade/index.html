@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site responsivo(CSS)</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+
+        main{
+            background-color: aliceblue;
+            padding: 20px;
+            border-radius: 10px;
+            
+            max-width: 800px;
+            min-width: 320px;
+            /*
+                O valor de 320 px é pq são os valores de telas muito pequenas e o de 800 px é uma média de ate onde o conteudo quebra legal
+            */
+        }
+
+        img{
+            width:100%;
+            /*esse valor diz que a imagem vai ocupar até 100% da width do main*/
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de responsividade</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro excepturi quod perspiciatis eaque mollitia. Libero, ipsam aut. Magnam consequuntur non, molestias quaerat necessitatibus minus sapiente beatae nam alias numquam voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio in porro nulla voluptas amet maiores, necessitatibus corporis ad asperiores, rerum ut pariatur cum sed quos sunt veritatis mollitia? Error, totam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum odit doloremque minima, porro esse eos similique, est temporibus quam modi laboriosam dolores illum rem. Cupiditate minus enim quod doloribus et.</p>
+        <picture>
+            <source media="(max-width: 600px)" srcset="irina-blok-pq.jpg">
+            <img src="irina-blok.jpg" alt="irina block">
+        
+        </picture>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, quidem! Molestias at, nisi illum eos, placeat, aspernatur commodi libero et expedita tenetur corporis! Sequi odio nam numquam eius ab possimus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit eaque fugiat voluptatum facilis adipisci voluptates, harum, debitis, unde iste placeat soluta veniam perspiciatis quae facere beatae? Nam placeat neque eveniet! Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quis nesciunt incidunt sint officiis voluptates perferendis maxime, placeat tempore cupiditate cum! Similique omnis illo totam assumenda consequuntur ea porro itaque!</p>
+    </main>
+</body>
+</html>
