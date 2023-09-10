@@ -1,0 +1,29 @@
+.quadrado{
+    border: 1px solid black;
+    margin: 5%;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+
+div#q1{
+    background-image: url('imagens/pattern001.png');
+}
+
+div#q2{
+    background-image: url('imagens/wallpaper001.jpg');
+}
+
+div#q3{
+    background-image: url('imagens/wallpaper005.jpg');
+}
+
+
+/*repetindo a imagem de background*/
+body{
+    background-image: url('imagens/wallpaper002.jpg');
+    background-size: 100px 100px;
+    background-repeat: space;
+    
+}
